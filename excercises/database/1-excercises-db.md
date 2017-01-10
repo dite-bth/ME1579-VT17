@@ -23,6 +23,9 @@ Du behöver inte göra alla övningarna - om du känner att du behärskar, gå v
 
 
 
+**Övningar**
+
+
 1. Skriv kommandot för att skapa databasen world.
 
 
