@@ -10,10 +10,10 @@ Du packar upp .zip-filen med kommandot;<br>
 `$ unzip world.sql.zip`
 
 För att konstruera alla tabeller med all data i MySql så kör vi följande inne i MySql;<br>
-`mysql> SOURCE /home/pi/world.sql`
+`mysql> SOURCE /home/pi/world.sql`<br>
 (ovan förutsätter att du packat upp filen i din hemmakatalog)
 
-Om du skulle ‘förstöra’ databasen så är det bara att köra ovan kommando igen. Möjligtvis att du behöver ta bort databasen först, vilket kan göras med;<br>
+Om du skulle ‘förstöra’ databasen så är det bara att köra ovan kommandot igen. Möjligtvis att du behöver ta bort databasen först, vilket kan göras med;<br>
 `mysql> DROP DATABASE world`
 
 
