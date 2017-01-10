@@ -3,11 +3,11 @@
 Syftet med de här övningarna är att ska bekanta dig med grundläggande SQL-kommandon.
 Använd World-databasen, som är en exempel-databas som MySql tillhandahåller.
 Du kan ladda ner databasen som en fil direkt ifrån deras site; logga in på din RPi och kör följande kommando i terminalen;
-$ wget http://downloads.mysql.com/docs/world.sql.zip
+`$ wget http://downloads.mysql.com/docs/world.sql.zip`
 
 
-Du packar upp .zip-filen med kommandot;
-$ unzip world.sql.zip
+Du packar upp .zip-filen med kommandot;<br>
+`$ unzip world.sql.zip`
 
 För att konstruera alla tabeller med all data i MySql så kör vi följande inne i MySql;
 mysql> SOURCE /home/pi/world.sql
