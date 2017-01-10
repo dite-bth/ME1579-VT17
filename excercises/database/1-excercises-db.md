@@ -2,18 +2,19 @@
 
 Syftet med de här övningarna är att ska bekanta dig med grundläggande SQL-kommandon.
 Använd World-databasen, som är en exempel-databas som MySql tillhandahåller.
-Du kan ladda ner databasen som en fil direkt ifrån deras site; logga in på din RPi och kör följande kommando i terminalen;
+Du kan ladda ner databasen som en fil direkt ifrån deras site; logga in på din RPi och kör följande kommando i terminalen;<br>
 `$ wget http://downloads.mysql.com/docs/world.sql.zip`
 
 
 Du packar upp .zip-filen med kommandot;<br>
 `$ unzip world.sql.zip`
 
-För att konstruera alla tabeller med all data i MySql så kör vi följande inne i MySql;
-mysql> SOURCE /home/pi/world.sql
+För att konstruera alla tabeller med all data i MySql så kör vi följande inne i MySql;<br>
+`mysql> SOURCE /home/pi/world.sql`
 (ovan förutsätter att du packat upp filen i din hemmakatalog)
 
-Om du skulle ‘förstöra’ databasen så är det bara att köra ovan kommando igen. Möjligtvis att du behöver ta bort databasen först, vilket kan göras med DROP DATABASE world.
+Om du skulle ‘förstöra’ databasen så är det bara att köra ovan kommando igen. Möjligtvis att du behöver ta bort databasen först, vilket kan göras med;<br>
+`mysql> DROP DATABASE world`
 
 
 Konstruera SQL-kommandon, som kan visa svarsdata/svarstabeller, för var och en av nedanstående punkter. Spara gärna dina kommandon i en (eller flera) filer så att du kan gå tillbaka till dem senare. I de fall frågorna gäller t ex att skapa ett ER-diagram så spara gärna även det som t ex pdf eller en bild.
