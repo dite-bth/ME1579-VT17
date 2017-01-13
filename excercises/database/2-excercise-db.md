@@ -14,23 +14,23 @@ Databasen finns i detta repot i form av filen **classic.sql**.
 
 1. Utgå från tabellen *employees* och konstruera SQL-kommandon som ett svar på följande;
 
-   - Visa alla anställda med anställningsnummer, förnamn, efternamn, email och vilken titel respektive anställd har.
+- Visa alla anställda med anställningsnummer, förnamn, efternamn, email och vilken titel respektive anställd har.
 
 
 -  Hur många anställda finns totalt?
 
 -  Hur många anställda heter Firrelli?
 
-   - Visa alla anställdas efternamn - ta bort eventuella dubbletter (om flera har samma efternamn så ska det endast visas en gång).
+ - Visa alla anställdas efternamn - ta bort eventuella dubbletter (om flera har samma efternamn så ska det endast visas en gång).
 
-   - Visa alla anställda (förnamn och efternamn) vars jobbtitel är Sales rep.
+ - Visa alla anställda (förnamn och efternamn) vars jobbtitel är Sales rep.
 
-   - Visa alla anställda (förnamn, efternamn och jobbtitel) som är högsta chef (President) eller chef för Sales (VP Sales).
+ - Visa alla anställda (förnamn, efternamn och jobbtitel) som är högsta chef (President) eller chef för Sales (VP Sales).
 
-   - Vilka anställda har Gerard Bondur som chef? 
-     Visa detta på åtminstone 2 olika sätt (gör 2st olika SELECT queries).
+ - Vilka anställda har Gerard Bondur som chef? 
+   Visa detta på åtminstone 2 olika sätt (gör 2st olika SELECT queries).
 
-   - Visa alla anställda (förnamn, efternamn och officeCode) vars officeCode är större än 2.
+ - Visa alla anställda (förnamn, efternamn och officeCode) vars officeCode är större än 2.
 
      ​
 
