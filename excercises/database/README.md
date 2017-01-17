@@ -12,6 +12,8 @@ Börja med antingen 1-excercises-db.md eller 2-excercises-db.md eller arbeta med
 2-excercises-db.md - använder en annan databas som finns i detta repo (classic.sql).
 
 
+### Installation av MySql
+Se Installation-mysql.md i detta repot; https://github.com/dite-bth/ME1579-VT17/blob/master/excercises/database/Installera-mysql.md
 
 
 Filen `db-script.sh`, i den här mappen, är ett bash-script som laddar ner och installerar de databaserna som används i övningarna.
