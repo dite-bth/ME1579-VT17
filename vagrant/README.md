@@ -26,11 +26,11 @@ Installera Vagrant samt Virtualbox;
 ### Starta
 
 Starta en terminal och navigera till den mapp där du vill dra igång din virtuella maskin.
-Det finns olika sätta att starta/skapa en maskin, varav ett innefattar kommandot;
+Det finns olika sätta att starta/skapa en maskin, varav ett innefattar kommandot för att initiera en konfiguration för en maskin (i detta fallet ubuntu 14.04);
 
-`$ vagrant init`
+`$ vagrant init ubuntu/trusty64`
 
-där en `Vagrantfile` skapas i mappen. Denna fil kan sedan modifieras efter behov, exempelvis direktivet;
+En `Vagrantfile` skapas i mappen. Denna fil kan sedan modifieras efter behov, exempelvis direktivet;
 
 `config.vm.box = "ubuntu/trusty64"`
 
