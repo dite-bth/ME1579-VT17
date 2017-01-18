@@ -2,6 +2,16 @@
 
 
 
+
+
+[TOC]
+
+
+
+
+
+
+
 ### Installation
 
 
@@ -64,7 +74,37 @@ $ mkdir myNewFlaskApp && cd myNewFlaskApp
 $ virtualenv --always-copy myNewEnv               # vi måste ha med --always-copy
 ``````
 
-_notera att argumentet --always-copy måste vara med - annars uppstår ett fel, vilket beror på att en shared-folder skapas av virtualbox, vilket tyvärr innehåller begränsningar._
+notera att argumentet --always-copy måste vara med - annars uppstår ett fel, vilket beror på att en shared-folder skapas av virtualbox, vilken innehåller en den begränsningar.
 
 
+
+### Vagrant share
+
+Ett bra verktyg i vagrant är vagrant share, med vilket man kan dela ut en webb-server (från en vagrant-maskin) till _vem som helst_. Man kan dela ut vilken port som helst.
+Läs mer: https://www.vagrantup.com/docs/share/
+
+För detta behöver man ett konto på http://atlas.hashicorp.com
+
+För att dela;
+
+logga först in med ditt atlas-konto;
+
+`$ vagrant login`
+
+- **port 80** - webbserver
+  boota din maskin och;
+  `$ vagrant share`
+
+- **ssh** - port 22
+  boot maskinen och;
+  `$ vagrant share --ssh`
+  ange ett password. Du får ett s.k _share name_ som du delar ut till den som ska ansluta.
+  Anslut med;
+  `$ vagrant connect --ssh SHARE-NAME`
+
+- **dela valfri port**
+  t ex 3306. Boota din maskin och kör;
+  `$ vagrant share --disable-http`
+
+  _notera att de portar som specificerats i din Vagrantfile är dom som delas_
 
