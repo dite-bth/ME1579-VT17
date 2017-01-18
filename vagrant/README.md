@@ -64,7 +64,7 @@ $ mkdir myNewFlaskApp && cd myNewFlaskApp
 $ virtualenv --always-copy myNewEnv               # vi måste ha med --always-copy
 ``````
 
-notera att argumentet --always-copy måste vara med - annars uppstår ett fel, vilket beror på att en shared-folder skapas av virtualbox, vilken innehåller en den begränsningar.
+_notera att argumentet --always-copy måste vara med - annars uppstår ett fel, vilket beror på att en shared-folder skapas av virtualbox, vilket tyvärr innehåller begränsningar._
 
 
 
