@@ -108,3 +108,6 @@ logga först in med ditt atlas-konto;
 
   _notera att de portar som specificerats i din Vagrantfile är dom som delas_
 
+- Om det strular (Windows);
+  kontrollera din brandvägg - lägg till VirtualboxNat
+
