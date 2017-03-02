@@ -2,7 +2,8 @@
 
 För dessa övningar krävs databasen classicmodels.
 Importera in den i din MySql på din Raspberry Pi;
-`mysql> /home/pi/dinFil.sql`
+
+`mysql>SOURCE /home/pi/dinFil.sql`
 
 Databasen finns i detta repot i form av filen **classic.sql**.
 
